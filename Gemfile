@@ -5,7 +5,8 @@ gemspec
 gem 'bundler'
 gem 'rake'
 gem 'rspec'
-gem 'coveralls', '<= 0.8.11', require: false
+gem 'coveralls', require: false
+gem 'tins', '~> 1.6', require: false
 
 gem 'psych', platforms: :rbx
 
